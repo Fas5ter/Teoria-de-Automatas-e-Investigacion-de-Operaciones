@@ -58,8 +58,6 @@ def RegistrarValores(origenes, destinos):
     for x in range(origenes):
         for y in range(destinos):
             valores[x][y] = validar_entrada_tipo_int(f'Introducir el valor del origen {x+1} con el destino {y+1}\n')
-    # print(valores)
-    # print(valores.tolist())
     return valores.tolist()
 
 # Funcion que sirve para asignar a una variable el vcada valor de oferta

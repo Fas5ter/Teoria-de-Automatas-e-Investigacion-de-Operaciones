@@ -4,6 +4,7 @@
 
 import os
 import time
+
 from Funciones_CostosMinimos_MODI.Funciones_CostosMinimos_MODI import *
 
 # MAIN
@@ -11,6 +12,7 @@ def main():
     while True:
         try:
             n = 30
+            # cost_matrix = RegistrarValores(origenes, destinos)
             filas = int(input("Ingrese el número de filas: "))
             columnas = int(input("Ingrese el número de columnas: "))
 

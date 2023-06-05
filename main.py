@@ -11,8 +11,7 @@ from Funciones_Gramaticas.menuGramaticas import Gramaticas
 
 
 # main
-
-if __name__ == "__main__":
+def main():
     while True:
         try:
             os.system("cls")
@@ -35,3 +34,6 @@ if __name__ == "__main__":
                 os.system("cls")
         except:
             print("No va a tronar mi codigo:)")
+
+if __name__ == "__main__":
+    main()

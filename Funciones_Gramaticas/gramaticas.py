@@ -1,6 +1,5 @@
-import os
 import random
-import time
+
 
 # FUNCIONES PARA LIMPIAR RENGLONES Y PODER ASIGNARLOS A VARIABLES
 def LimpiarLista(lista1, lista2):

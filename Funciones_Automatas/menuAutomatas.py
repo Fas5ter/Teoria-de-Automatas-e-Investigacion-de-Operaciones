@@ -1,6 +1,7 @@
 from Funciones_Automatas.automatas import *
 from Funciones_Gramaticas.gramaticas import *
 
+
 # Funcion que crea el menu de automatas y permite navegar en sus opciones:
 '''
 1.- Cargar automata
